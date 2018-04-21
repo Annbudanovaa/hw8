@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Анна"
+  },
+  "text": {
+    "more": "С помощью приложения Gephi можно проанализировать граф своих друзей. Так, можно увидеть четко очерченные группы (к примеру, друзей по школе, по ВУЗу, по работе), определить, у кого из друзей больше подписчиков, найти общих знакомых.",
+    "intro": "Этот граф наглядно показывает взаимоотношения всех моих друзей и знакомых",
+    "title": "Профессор"
+  },
+  "legend": {
+    "edgeLabel": "дружеские отношения",
+    "colorLabel": "принадлежность к группе",
+    "nodeLabel": "друг"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
